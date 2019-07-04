@@ -133,8 +133,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := /vendor/dsp:/dsp
 BOARD_ROOT_EXTRA_SYMLINKS += /mnt/vendor/persist:/persist
 BOARD_ROOT_EXTRA_SYMLINKS += /vendor/firmware_mnt:/firmware
 
-include device/google/crosshatch-sepolicy/crosshatch-sepolicy.mk
-
 TARGET_FS_CONFIG_GEN := device/google/crosshatch/config.fs
 
 QCOM_BOARD_PLATFORMS += sdm845
@@ -236,8 +234,6 @@ TARGET_USES_MKE2FS := true
 
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/b1c1-setup.sh
-
--include vendor/google_devices/crosshatch/proprietary/BoardConfigVendor.mk
 
 # TWRP
 TW_THEME := portrait_hdpi
