@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "ZVNexus/android_kernel_google_bluecross",
+    "target_path": "kernel/google/bluecross",
+    "revision": "android-9.0"
+  }
+]
