@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_crosshatch.mk \
-    $(LOCAL_DIR)/aosp_blueline.mk \
+    $(LOCAL_DIR)/omni_crosshatch.mk \
+    $(LOCAL_DIR)/omni_blueline.mk \
